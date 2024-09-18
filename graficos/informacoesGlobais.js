@@ -7,3 +7,4 @@ async function visualizarinformacoesGlobais() {
     const dados = res.json()
     console.log(dados);
 }
+visualizarinformacoesGlobais()
