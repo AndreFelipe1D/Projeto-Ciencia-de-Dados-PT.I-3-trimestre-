@@ -33,11 +33,6 @@ nav a{
     margin: 0rem 2rem 3rem 0rem;
     font-size:12rem;
 }
-header{
-    background-color: var(--primary-color);
-    text-align: center;
-    padding: 1px;
-}
 nav a{
     text-decoration: underline;
     transform: scale(0.90);
