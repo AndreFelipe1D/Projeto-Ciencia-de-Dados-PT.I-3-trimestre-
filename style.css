@@ -11,7 +11,7 @@ body{
     color: var(--primary-color);
     font-family: var(--font);
     height: 100vh;
-    margin:0;
+    margin: 0;
 }
 header{
     background-color: var(--primary-color);
@@ -39,9 +39,12 @@ nav a:hover {
     transition: transform 0.1s;
 }
 footer{
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--primary-color);
     color: var(--bg-color);
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
 }
