@@ -4,7 +4,7 @@ console.log(url);
 
 async function visualizarinformacoesGlobais() {
     const res = await fetch(url);
-    const dados = res.json()
+    const dados = await res.json()
     console.log(dados);
 }
 visualizarinformacoesGlobais()
