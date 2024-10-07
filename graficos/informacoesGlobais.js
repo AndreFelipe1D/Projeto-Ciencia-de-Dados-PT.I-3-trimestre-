@@ -11,7 +11,7 @@ async function visualizarinformacoesGlobais() {
     const minutos = Math.round((dados.tempo_medio-horas)* 100)
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `Você sabia que o mundo tem <span>${pessoasNoMundo} bilhões </span> de pessoas e que aproximadamente <span>${pessoasConectadas} bilhões </span> estão conetadas em alguma rede social e passam em média <span>${horas}</span> horas conectadas.`
+    paragrafo.innerHTML = `Você sabia que o mundo tem <span>${pessoasNoMundo} bilhões </span> de pessoas e que aproximadamente <span>${pessoasConectadas} bilhões </span> estão conetadas em alguma rede social e passam em média <span>${horas}</span> horas e <span>${minutos}</span> minutos conectadas.`
     
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
