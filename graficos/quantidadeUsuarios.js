@@ -19,7 +19,7 @@ async function quantidadeUsuarios() {
     ]
 
     const layout = {
-        plot__bgcolor: getCSS ('--bg-color')
+        plot_bgcolor: getCSS('--bg-color')
     }
 
     const grafico = document.createElement('div')
