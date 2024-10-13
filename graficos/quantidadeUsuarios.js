@@ -1,4 +1,4 @@
-import { getCSS } from "./common.js"
+import { getCSS, tickConfig } from "./common.js"
 
 async function quantidadeUsuarios() {
     
@@ -32,14 +32,22 @@ async function quantidadeUsuarios() {
         }
      },
      xaxis: {
+        tickfont: tickConfig,
         title: {
-            text: 'Nome das redes sociais',
+            text: 'nome das redes sociais',
             font: {
-                color: getCSS('--secondary-color')
+                color: getCSS('--secundary-color')
             }
         }
      },
      yaxis:{
+        tickfont: tickConfig,
+        title: {
+            text: 'bilhões de usuáros ativos',
+            font: {
+                color: getCSS('--secundary-color')
+            }
+        }
 
      },
 }
